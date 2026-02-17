@@ -10,9 +10,21 @@ export interface PropertyInfo {
   maxGuests: number;
 }
 
+import type { ReactNode } from "react";
+
 export interface GalleryImage {
   src: string;
   alt: string;
   width: number;
   height: number;
+}
+
+export interface AmenityItem {
+  name: string;
+  icon: ReactNode;
+}
+
+export interface AmenityCategory {
+  title: string;
+  items: AmenityItem[];
 }
