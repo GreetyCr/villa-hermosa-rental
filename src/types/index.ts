@@ -9,3 +9,10 @@ export interface PropertyInfo {
   bathrooms: number;
   maxGuests: number;
 }
+
+export interface GalleryImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
