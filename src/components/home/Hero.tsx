@@ -11,11 +11,11 @@ const HERO_IMAGE = {
   alt: "Luxury villa with private pool and lake views in Playa Hermosa, Costa Rica",
 } as const;
 
-function scrollToFeatures(): void {
-  document.getElementById("features")?.scrollIntoView({ behavior: "smooth" });
-}
-
 export function Hero(): React.ReactElement {
+  const handleScrollToFeatures = (): void => {
+    document.getElementById("features")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section
       className="relative min-h-[600px] w-full overflow-hidden md:min-h-screen"
@@ -71,7 +71,7 @@ export function Hero(): React.ReactElement {
         </div>
         <button
           type="button"
-          onClick={scrollToFeatures}
+          onClick={handleScrollToFeatures}
           className="absolute bottom-8 left-1/2 -translate-x-1/2 rounded-full p-2 text-white/90 transition-colors hover:bg-white/10 hover:text-white"
           aria-label="Scroll to content"
         >

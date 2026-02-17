@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  name: "Playa Hermosa Luxury Rental",
+  name: "Casa Guarguaridad",
   description: "Luxury villa rental in Playa Hermosa, Costa Rica",
   url: "https://casa-guarguaridad.com",
   maxGuests: 6,

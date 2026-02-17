@@ -33,7 +33,7 @@ export function Header(): React.ReactElement {
           href="/"
           className="text-ocean-600 hover:text-ocean-700 text-xl font-bold transition-colors"
         >
-          Villa Hermosa
+          Casa Guarguaridad
         </Link>
 
         {/* Desktop navigation */}
