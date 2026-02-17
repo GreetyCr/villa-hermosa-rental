@@ -4,6 +4,7 @@ import { Features } from "@/components/home/Features";
 import { Gallery } from "@/components/home/Gallery";
 import { Amenities } from "@/components/home/Amenities";
 import { Location } from "@/components/home/Location";
+import { Testimonials } from "@/components/home/Testimonials";
 
 export default function HomePage(): React.ReactElement {
   return (
@@ -13,7 +14,8 @@ export default function HomePage(): React.ReactElement {
       <Gallery />
       <Amenities />
       <Location />
-      <div id="testimonials" className="min-h-[400px]" aria-hidden />
+      <Testimonials />
+      <div id="cta" className="min-h-[400px]" aria-hidden />
     </>
   );
 }
