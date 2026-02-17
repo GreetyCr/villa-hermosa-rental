@@ -28,3 +28,13 @@ export interface AmenityCategory {
   title: string;
   items: AmenityItem[];
 }
+
+export interface Testimonial {
+  id: string;
+  guestName: string;
+  location: string;
+  rating: number;
+  date: string;
+  stayType: string;
+  text: string;
+}
